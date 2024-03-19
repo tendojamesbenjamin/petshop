@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-fa
+    mily: Poppins, Arial, Helvetica, sans-serif;
+    width: 100vw;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 30px 40px;
+    align-items: center;
+    width: auto;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+/* all sections and buttons*/
+section {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+}
+button {
+    background-color: #FFB968;
+    color: black;
+    border: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: white;
+}
+/* end of universals */ 
+
+/* section 1 */ 
+.pet-shop {
+    background-image: url(cat.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    
+    color: #FFB968;
+    margin-bottom: 20px;
+}
+
+.pet-shop p {
+    padding: -3px auto;
+    margin-top: -5px ;
+    color: white;
+    font-weight: 9;
+    font-size: 20px;
+}
+
+.pet-shop button {
+    height: 80px;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    padding-top: 20px auto;
+    color: black;
+    font-size: 20px;
+   
+}
+
+/* section 2 */ 
+.About-us {
+    background-color: black;
+    color: #FFB968;
+    padding: ;
+    margin: none;
+    width: 100%;
+}
+
+.About-us p {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0 100px;
+}
+
+/* section 3 */ 
+.companion {
+    background-color: black;
+    color: #FFB968;`
+    padding-bottom: none;
+    height: 660px;
+    
+}
+
+.companion h2 {
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+.images {
+    display: flex ;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    width: 100%;
+}
+
+.catelouge {
+    border: 2px solid #FFB968;
+    border-radius: 5px;
+    width: 22%;
+    height: 510px; ;
+}
+
+.image-sec {
+    display: block;
+    text-align: left;
+    width: 88%;
+    height: 205px;
+    padding-top: 0 2px;
+    margin: auto 5%;
+    
+}
+
+.image-sec p {
+    font-weight: lighter;
+}
+
+.companion h3 {
+    color: white;
+}
+
+.companion button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+.bunny-button {
+    margin-top: 19px;
+}
+
+.donkey-button {
+    margin-top: -8px;
+}
+
+h3 {
+    font-size: 28px;
+}
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* scetion 4 */ 
+.newsletter {
+    background-image: url(hamsterr.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: ;
+
+}
+.newsletter h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.newsletter p {
+    margin: 2px auto;
+}
+
+form {
+    padding-top: 20px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: auto 50px;
+}
+
+/* Footer */ 
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #2C2A2A;
+    margin: none;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 15;
+}
+
+
+
